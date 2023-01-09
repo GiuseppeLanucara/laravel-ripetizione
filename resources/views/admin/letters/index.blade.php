@@ -4,6 +4,10 @@
     <div class="container">
         <h2 class="text-center mt-5 mb-5">Elenco lettere</h2>
         <div class="row justify-content-center">
+            <div class="d-flex">
+                <a class="btn btn-success" href="{{ route('admin.letters.create') }}">Nuova lettera</a>
+            </div>
+
             <div class="col-8">
                 <table class="table">
                     <thead>
